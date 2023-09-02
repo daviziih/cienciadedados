@@ -1,3 +1,4 @@
+#Velocidade projetil lançado metro por segundo.
 
 VELOCIDADE;
 DISTANCIA_METROS = 10;
@@ -6,6 +7,8 @@ TEMPO_SEGUNDOS = 10;
 VELOCIDADE = (DISTANCIA_METROS * 1000) / (TEMPO_SEGUNDOS * 60);
 
 print(VELOCIDADE);
+
+#Calcular volume de objetos geométricos.
 
 VOLUME_ESPERA = 0;
 VOLUME_CILINDRO = 0;
@@ -24,11 +27,12 @@ print("Volume Esfera ", VOLUME_ESPERA);
 print("Volume Cilindro ", VOLUME_CILINDRO);
 print("Volume Retangulo ", VOLUME_RETANGULO);
 
+#Manipulação de números.
+
 numero = 10;
 
 valor1 = 5;
 valor2 = 2;
-
 
 print("Numero", numero)
 print(" ")
@@ -45,6 +49,8 @@ print("Soma:", valor1 + valor2)
 print("Subtração:", valor1 - valor2)
 print("Divisão:", valor1 / valor2)
 print("Multiplicação:", valor1 * valor2)
+
+#Conversão de temperatura e métrica no jogo
 
 F = 0;
 Celsius = 20;
@@ -73,7 +79,6 @@ print("Milhas: ", milhas)
 print("Quilometros: ", q)
 print("Metros: ", metros)
 print("Pes: ", pe)
-
 
 x = [1, 2, 3]
 print(x)
