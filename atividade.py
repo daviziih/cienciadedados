@@ -1,3 +1,51 @@
+
+VELOCIDADE;
+DISTANCIA_METROS = 10;
+TEMPO_SEGUNDOS = 10;
+
+VELOCIDADE = (DISTANCIA_METROS * 1000) / (TEMPO_SEGUNDOS * 60);
+
+print(VELOCIDADE);
+
+VOLUME_ESPERA = 0;
+VOLUME_CILINDRO = 0;
+VOLUME_RETANGULO = 0;
+
+RAIO = 3;
+ALTURA = 2;
+LARGURA = 2;
+COMPRIMENTO = 12;
+
+VOLUME_ESPERA = (4/3) * 3.1415 * (RAIO * RAIO * RAIO);
+VOLUME_CILINDRO = 3.1415 * (RAIO * RAIO) * ALTURA;
+VOLUME_RETANGULO = COMPRIMENTO * LARGURA * ALTURA
+
+print("Volume Esfera ", VOLUME_ESPERA);
+print("Volume Cilindro ", VOLUME_CILINDRO);
+print("Volume Retangulo ", VOLUME_RETANGULO);
+
+numero = 10;
+
+valor1 = 5;
+valor2 = 2;
+
+
+print("Numero", numero)
+print(" ")
+print("Antecessor:", numero - 1)
+print("Sucessor:", numero + 1)
+print("Dobrado:", numero * 2)
+print("Multiplicado 3.25:", numero * 3.25)
+print("Multiplicado -1.26:", numero * -1.26)
+print(" ")
+print("Valor 1:", valor1)
+print("Valor 2:", valor2)
+print(" ")
+print("Soma:", valor1 + valor2)
+print("Subtração:", valor1 - valor2)
+print("Divisão:", valor1 / valor2)
+print("Multiplicação:", valor1 * valor2)
+
 F = 0;
 Celsius = 20;
 C = 18;
